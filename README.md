@@ -42,3 +42,6 @@ To generate database and tables, you need to have open Terminal and be in parent
 To see if the process has succeeded (apart from Terminal logs), open and run `analytics.ipynb` notebook. 
 There you will see simplistic representation of songplay and general stats about other tables. 
 If you want to see what is contained in tables in depth, consider also using `test.ipynb`, it shows more granular data about each of the created tables.
+
+# License
+Please refer to `LICENSE.md` to understand how to use this project for personal purposes.
