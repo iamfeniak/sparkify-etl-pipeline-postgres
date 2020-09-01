@@ -1,19 +1,30 @@
 # Sparkify Song Play Analysis
 
 ## Introduction 
-This project contains scripts and sample data to help Sparkify analytics team analyse song listening behavior.
+This is a learning project and not a real-world application. Use with caution. Sparkify does not exist. 
+
+This project contains scripts to help Sparkify analytics team analyse song listening behavior.
 
 ## Schema 
 Input data is fitted into 5 tables after ETL pipeline run:
 1. songplays (songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent)
+
 ![songplays table](https://i.imgur.com/a4e4Qim.jpg)
+
 2. users (user_id, first_name, last_name, gender, level)
+
 ![users table](https://i.imgur.com/GpDsGph.jpg)
+
 3. songs (song_id, title, artist_id, year, duration)
+
 ![songs Table](https://imgur.com/SHUMYdX.jpg)
+
 4. artists (artist_id, name, location, latitude, longitude)
+
 ![artists Table](https://i.imgur.com/TVCO492.jpg)
+
 5. time (start_time, hour, day, week, month, year, weekday)
+
 ![time table](https://i.imgur.com/50dMGBg.jpg)
 
 While tables 2-5 are used to organise data in dimensions (which users do we have, which songs, etc.), 
